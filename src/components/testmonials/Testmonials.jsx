@@ -47,7 +47,7 @@ const Testmonials = () => {
 
       <Swiper
         className="container testmonials__container"
-        modules={{ Navigation, Pagination, Scrollbar, A11y }}
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
